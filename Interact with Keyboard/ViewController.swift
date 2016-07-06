@@ -19,12 +19,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         NSNotificationCenter.defaultCenter().addObserver(
             self,
-            selector: "keyboardWillShow:",
+            selector: #selector(ViewController.keyboardWillShow(_:)),
             name: UIKeyboardWillShowNotification,
             object: nil)
         NSNotificationCenter.defaultCenter().addObserver(
             self,
-            selector: "keyboardWillHide:",
+            selector: #selector(ViewController.keyboardWillHide(_:)),
             name: UIKeyboardWillHideNotification,
             object: nil)
     }
@@ -48,7 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
 
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
     
