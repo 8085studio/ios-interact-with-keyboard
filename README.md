@@ -1,5 +1,7 @@
 # iOS 虛擬鍵盤控制
 
+![](https://travis-ci.org/8085studio/ios-interact-with-keyboard.svg?branch=master)
+
 ##  按下鍵盤上的「完成」後隱藏虛擬鍵盤
 
 `ViewController.swift` 加入以下程式碼

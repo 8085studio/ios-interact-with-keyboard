@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF6E727B1D2D62DD00D026E9 /* Interact_with_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E727A1D2D62DD00D026E9 /* Interact_with_KeyboardTests.swift */; };
 		E4B90E2F1B2D0D0A00A30F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B90E2E1B2D0D0A00A30F92 /* AppDelegate.swift */; };
 		E4B90E311B2D0D0A00A30F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B90E301B2D0D0A00A30F92 /* ViewController.swift */; };
 		E4B90E341B2D0D0A00A30F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B90E321B2D0D0A00A30F92 /* Main.storyboard */; };
@@ -14,7 +15,20 @@
 		E4B90E391B2D0D0A00A30F92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B90E371B2D0D0A00A30F92 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DF6E727D1D2D62DD00D026E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B90E211B2D0D0A00A30F92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B90E281B2D0D0A00A30F92;
+			remoteInfo = "Interact with Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DF6E72781D2D62DC00D026E9 /* Interact with KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interact with KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6E727A1D2D62DD00D026E9 /* Interact_with_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interact_with_KeyboardTests.swift; sourceTree = "<group>"; };
+		DF6E727C1D2D62DD00D026E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B90E291B2D0D0A00A30F92 /* Interact with Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interact with Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B90E2D1B2D0D0A00A30F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B90E2E1B2D0D0A00A30F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF6E72751D2D62DC00D026E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B90E261B2D0D0A00A30F92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF6E72791D2D62DD00D026E9 /* Interact with KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6E727A1D2D62DD00D026E9 /* Interact_with_KeyboardTests.swift */,
+				DF6E727C1D2D62DD00D026E9 /* Info.plist */,
+			);
+			path = "Interact with KeyboardTests";
+			sourceTree = "<group>";
+		};
 		E4B90E201B2D0D0A00A30F92 = {
 			isa = PBXGroup;
 			children = (
 				E4B90E2B1B2D0D0A00A30F92 /* Interact with Keyboard */,
+				DF6E72791D2D62DD00D026E9 /* Interact with KeyboardTests */,
 				E4B90E2A1B2D0D0A00A30F92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E4B90E291B2D0D0A00A30F92 /* Interact with Keyboard.app */,
+				DF6E72781D2D62DC00D026E9 /* Interact with KeyboardTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +107,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF6E72771D2D62DC00D026E9 /* Interact with KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6E727F1D2D62DD00D026E9 /* Build configuration list for PBXNativeTarget "Interact with KeyboardTests" */;
+			buildPhases = (
+				DF6E72741D2D62DC00D026E9 /* Sources */,
+				DF6E72751D2D62DC00D026E9 /* Frameworks */,
+				DF6E72761D2D62DC00D026E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6E727E1D2D62DD00D026E9 /* PBXTargetDependency */,
+			);
+			name = "Interact with KeyboardTests";
+			productName = "Interact with KeyboardTests";
+			productReference = DF6E72781D2D62DC00D026E9 /* Interact with KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E4B90E281B2D0D0A00A30F92 /* Interact with Keyboard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B90E481B2D0D0A00A30F92 /* Build configuration list for PBXNativeTarget "Interact with Keyboard" */;
@@ -103,6 +153,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Herman Liang";
 				TargetAttributes = {
+					DF6E72771D2D62DC00D026E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E4B90E281B2D0D0A00A30F92;
+					};
 					E4B90E281B2D0D0A00A30F92 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
@@ -122,11 +176,19 @@
 			projectRoot = "";
 			targets = (
 				E4B90E281B2D0D0A00A30F92 /* Interact with Keyboard */,
+				DF6E72771D2D62DC00D026E9 /* Interact with KeyboardTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF6E72761D2D62DC00D026E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B90E271B2D0D0A00A30F92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,6 +202,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF6E72741D2D62DC00D026E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6E727B1D2D62DD00D026E9 /* Interact_with_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E4B90E251B2D0D0A00A30F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +220,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6E727E1D2D62DD00D026E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B90E281B2D0D0A00A30F92 /* Interact with Keyboard */;
+			targetProxy = DF6E727D1D2D62DD00D026E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4B90E321B2D0D0A00A30F92 /* Main.storyboard */ = {
@@ -171,6 +249,35 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DF6E72801D2D62DD00D026E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Interact with KeyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8085studio.Interact-with-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interact with Keyboard.app/Interact with Keyboard";
+			};
+			name = Debug;
+		};
+		DF6E72811D2D62DD00D026E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "Interact with KeyboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.8085studio.Interact-with-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interact with Keyboard.app/Interact with Keyboard";
+			};
+			name = Release;
+		};
 		E4B90E461B2D0D0A00A30F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -280,6 +387,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF6E727F1D2D62DD00D026E9 /* Build configuration list for PBXNativeTarget "Interact with KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6E72801D2D62DD00D026E9 /* Debug */,
+				DF6E72811D2D62DD00D026E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E4B90E241B2D0D0A00A30F92 /* Build configuration list for PBXProject "Interact with Keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
